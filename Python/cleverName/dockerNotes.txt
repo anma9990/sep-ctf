@@ -1,0 +1,18 @@
+Note: add user to 'docker' group if you have to use sudo with docker command
+
+docker (show commands)
+
+docker images (show docker images)
+docker pull <name> (pull image from repo or registry)
+docker rmi image <image_id> (remove image)
+
+docker ps -a (show all docker containers)
+docker build -t <tagID> .
+docker run --name <container_name> <container_id>
+docker stop <container_id> (stop container process)
+docker rm <container_id> (remove stopped container)
+
+docker-compose -v (check installation/version)
+docker-compose config (check .yml file valid)
+docker-compose up -d (run .yml compose file, in detached mode)
+docker-compose down
