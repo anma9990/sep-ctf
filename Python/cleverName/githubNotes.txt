@@ -1,0 +1,30 @@
+git clone   (fork repo)
+git branch  (list branches)
+git branch pythonBranch  (create branch)
+git checkout pythonBranch  (enter branch)
+
+git pull
+git add .
+git commit -m "changes made"
+git status
+git branch
+git push origin <branchName>
+
+git checkout main
+get merge <subBranch>
+git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.atlassian.com/git/tutorials/inspecting-a-repository
+
