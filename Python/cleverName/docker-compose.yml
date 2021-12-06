@@ -2,3 +2,11 @@ version: "3.9"
 services:
   puzzle1:
     build: puzzle1
+    networks:
+      static-network:
+        ipv4_address: 172.16.10.10
+networks:
+  static-network:
+    ipam:
+      config:
+        - subnet: 172.16.10.0/24

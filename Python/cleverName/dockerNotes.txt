@@ -16,3 +16,6 @@ docker-compose -v (check installation/version)
 docker-compose config (check .yml file valid)
 docker-compose up -d (run .yml compose file, in detached mode)
 docker-compose down
+
+docker rm -vf $(docker ps -aq)
+docker rmi -f $(docker images -aq)

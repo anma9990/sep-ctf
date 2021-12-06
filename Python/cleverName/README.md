@@ -1,2 +1,2 @@
-1. docker-compose up -d
-2. 
+1. ./dockerReset.sh
+2. ssh python0@172.16.10.10 
