@@ -1,7 +1,7 @@
 version: "3.9"
 services:
-  puzzle1:
-    build: puzzle1
+  puzzle0:
+    build: puzzle0
     networks:
       static-network:
         ipv4_address: 172.16.10.10
