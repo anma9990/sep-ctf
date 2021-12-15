@@ -1,4 +1,6 @@
 0. [OPTIONAL] sudo usermod -aG docker $USER
 	- adds user to docker group so 'sudo' no longer required /w docker commands
 1. ./dockerReset.sh
-2. ssh python0@172.16.10.10 
+2. ssh python0@172.16.10.10
+ssh python1@172.16.10.20 (server)
+ssh python1@172.16.10.30 (client) 

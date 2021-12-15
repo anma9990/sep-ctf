@@ -5,6 +5,16 @@ services:
     networks:
       static-network:
         ipv4_address: 172.16.10.10
+  puzzle1_server:
+    build: puzzle1_server
+    networks:
+      static-network:
+        ipv4_address: 172.16.10.20
+  puzzle1:
+    build: puzzle1
+    networks:
+      static-network:
+        ipv4_address: 172.16.10.30
 networks:
   static-network:
     ipam:
