@@ -11,7 +11,7 @@ s.bind((HOST,PORT))
 s.listen()
 conn, addr = s.accept()
 
-conn.send('Successfully connected to the host!\nIP: {}\nPORT: {}\nType "exit" to shut server down\nWARNING: Empty strings close the socket'.format(HOST,PORT).encode())
+conn.send('Successfully connected to the host!\nIP: {}\nPORT: {}\nServer resets every 30 seconds\nWARNING: Empty strings close the socket (only hit enter after typing something)'.format(HOST,PORT).encode())
 while True:
     raw = conn.recv(2048)
     msg = raw.decode()

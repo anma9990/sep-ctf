@@ -1,6 +1,7 @@
 import socket
 
-HOST = '172.16.10.20'  
+HOST = '172.16.10.20' 
+#'172.16.10.20'
 PORT = 4444
 
 s = socket.socket()
