@@ -1,0 +1,10 @@
+Write a python (client) script that connects to server hosted on another machine (puzzle1_server)
+
+IP: 172.16.10.30
+PORT: 4444
+
+Server sends message upon connection, then waits to receive from client
+
+NOTE: Server reruns every 30 seconds due to instability
+      Don't send an empty string by hitting enter after connection, a read of 0 bytes tells server to shut down
+      If you do, server should restart after 30 seconds

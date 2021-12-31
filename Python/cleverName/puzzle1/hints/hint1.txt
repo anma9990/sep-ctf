@@ -1,0 +1,3 @@
+flag1.txt contains SHA256 of password
+Write python script that takes SHA256 hash of each password in common_passwords.txt
+Find a match

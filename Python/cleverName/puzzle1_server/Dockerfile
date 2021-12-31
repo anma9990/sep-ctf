@@ -14,8 +14,8 @@ RUN chmod +x persistent_server.sh
 
 EXPOSE 22
 
-RUN mkdir -p /home/ubuntu/ssh_cmd
-WORKDIR /home/ubuntu/ssh_cmd
-CMD ["/usr/sbin/sshd","-D"]
-WORKDIR /home/ubuntu
+RUN mkdir -p /home/ubuntu/server
+WORKDIR /home/ubuntu/server
 CMD ["./persistent_server.sh","&"]
+WORKDIR /home/ubuntu
+CMD ["/usr/sbin/sshd","-D"]

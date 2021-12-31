@@ -18,7 +18,7 @@ while True:
     if (msg == "exit"):
         conn.send('ok bye'.encode())
         break
-    elif (msg == "someSecret"):
+    elif (msg == "macdaddy"):
         conn.send('70d80b4'.encode())
     else:
         conn.send('Incorrect'.encode())
