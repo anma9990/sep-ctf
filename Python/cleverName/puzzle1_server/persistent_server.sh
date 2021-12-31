@@ -3,5 +3,5 @@
 while true
 do
 	python3 server.py
-	sleep 31
+	sleep 30
 done

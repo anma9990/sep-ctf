@@ -19,7 +19,7 @@ while True:
         conn.send('ok bye'.encode())
         break
     elif (msg == "macdaddy"):
-        conn.send('70d80b4'.encode())
+        conn.send('Congratulations'.encode())
     else:
         conn.send('Incorrect'.encode())
 
