@@ -8,7 +8,10 @@ RUN echo 'python1:python1' | chpasswd
 RUN service ssh start
 
 WORKDIR /home/ubuntu
-COPY client.py ./
+COPY ./solutions/0.py ./
+COPY ./solutions/client.py ./
+COPY flag0.txt ./
+COPY hint0.txt ./
 
 EXPOSE 22
 

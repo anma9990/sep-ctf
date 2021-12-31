@@ -1,0 +1,9 @@
+Write a python script that takes in and reads flag0.txt
+Password contained within flag0.txt
+Each character of flag0  is preceded by, in order:
+	1. An even integer
+	2. A '3'
+	3. A '9'
+Ex: 239t439e639s839t, flag = test 
+
+Example solution script available.
